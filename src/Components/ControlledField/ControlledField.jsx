@@ -50,6 +50,8 @@ const ControlledField = () => {
                 <br />
                 <input type="password" onChange={handleChange} defaultValue={password} name="password" id="" />
                 <br />
+
+                <input type="number" />
                 <input type="submit" value="submit" />
             </form>
             <h3>{error}</h3>

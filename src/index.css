@@ -54,6 +54,17 @@
 body {
   margin: 0;
 }
+table{
+ border-collapse:collapse;
+ margin: 50px auto;
+}
+ td,th{
+  margin-right: 16px;
+  border: 2px solid green;
+  padding: 10px;
+ 
+}
+
 
 #root {
   width: 1126px;
